@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("pics/sky.jpg") no repeat center center fixed;
+    background-size: cover;
+}
+
+.birb{
+    height: 100px;
+    width: 130px;
+    position: fixed;
+    top: 40vh;
+    left: 20vw;
+    z-index: 1;
+}
+
+.pipe{
+    height: 70vh;
+    width: 111px;
+    position: fixed;
+    top: 40vh;
+    left: 100vw;
+    background: linear-gradient(to right, rgb(0, 128, 0), rgb(125, 217, 125), darkgreen);
+    box-shadow: rgba(1, 0, 73, 0.5) 0px 0px 20px;
+}
+
+.message{
+    position: fixed;
+    z-index: 10;
+    color: black;
+    top: 30vh;
+    left: 50vw;
+    font-size: 4em;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.messageStyle{
+    background: rgba(255, 163, 178, 0.716);
+    padding: 20px;
+    box-shadow: rgba(3, 0, 100, 0.5) 0px 0px 10px;
+    top: 50%;
+}
+
+.points{
+    height: 10vh;
+    position: absolute;
+    font-size: 30vh;
+    font-weight: 100;
+    text-shadow: rgba(0, 0, 0) 4px 3px 1px;
+    top: 1vh;
+    left: 40vw;
+    color: gold;
+    font-weight: bold;
+}
